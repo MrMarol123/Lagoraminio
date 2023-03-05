@@ -20,7 +20,7 @@ header.masthead {
     }
     .intro-heading {
       text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-      font-size: 50px;
+      font-size: 40px;
       font-weight: 700;
       line-height: 50px;
       margin-bottom: 25px;
@@ -34,6 +34,7 @@ header.masthead {
       padding-top: 300px;
       padding-bottom: 200px;
       .intro-lead-in {
+        text-shadow: 0 1px 10px rgba(0, 0, 0, 0.8);
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
@@ -41,6 +42,7 @@ header.masthead {
         @include serif-font;
       }
       .intro-heading {
+        text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
